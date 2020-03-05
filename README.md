@@ -35,3 +35,12 @@ $> ./brackets | cat -e
 $
 $>
 ```
+
+## Téléchargement
+```
+git clone https://github.com/manki23/brackets.git ; cd brackets
+```
+## Compilation
+```
+gcc *.c -o brackets
+```
