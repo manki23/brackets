@@ -1,15 +1,18 @@
 # brackets
-Assignment name  : brackets 
-Expected files   : *.c *.h
+
+Assignment name: brackets
+
+Expected files: *.c *.h
+
 Allowed functions: write
---------------------------------------------------------------------------------
+***
 
 Ecrire un programme qui prendra une chaine de caractères en paramètre et qui 
-écrit sur la sortie standard 'OK' si l'expression est bien parenthesée et 
-'Error' dans le cas contraire, le tout suivi d'une newline.
+écrit sur la sortie standard ```OK``` si l'expression est bien parenthesée et 
+```Error``` dans le cas contraire, le tout suivi d'une newline.
 
-Les symboles utilisés comme 'parenthèses' seront les parenthèses '(' et ')', les
-crochets '[' et ']' ainsi que les accolades '{' et '}'. Tous les autres
+Les symboles utilisés comme 'parenthèses' seront les parenthèses ```(``` et ```)```, les
+crochets ```[``` et ```]``` ainsi que les accolades ```{``` et ```}```. Tous les autres
 caractères seront tout simplement ignorés.
 
 Une parenthèse ouvrante devra obligatoirement être fermée par une parenthèse
@@ -20,7 +23,7 @@ Votre programme évaluera tous les arguments. Si aucun argument n'est fourni,
 il affichera seulement une newline.
 
 Exemples :
-
+```
 $> ./brackets '(jo:qahndoe)' | cat -e
 OK$
 $> ./brackets '([)]' | cat -e
@@ -31,3 +34,4 @@ OK$
 $> ./brackets | cat -e
 $
 $>
+```
